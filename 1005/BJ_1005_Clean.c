@@ -164,7 +164,7 @@ int main() // MAIN
 		
 		scanf("%d", &finalbd);
 		
-		total[i] = trace(bda, final, 0);
+		total[i] = trace(bda, finalbd, 0);
 		
 		returnlist();
 	}	
