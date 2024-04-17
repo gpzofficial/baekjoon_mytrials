@@ -15,7 +15,7 @@ void bad_malloc_exit()
 	exit(1);
 }
 
-int str_len(char *str)
+int str_len(char *str) // string.h 안쓰려고 구현
 {
 	int length = 0;
 	for(int i = 0; str[i] != 0; i++)
